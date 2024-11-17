@@ -1,0 +1,51 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+.logo {
+  width: 50px;
+}
+.header-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+.header-list-item:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.5s;
+}
+
+.menu-mobile {
+  justify-self: end;
+}
+.header-moblie-list-container {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 0%;
+  left: 20%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.header-mobile-list-item {
+  list-style: none;
+  padding: 10px;
+}
+.header-mobile-list-item:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.5s;
+}
+.delete {
+  width: 30px;
+  display: grid;
+  justify-self: end;
+}

@@ -1,0 +1,23 @@
+.aside {
+  background-color: hsl(240, 100%, 5%);
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+.title-aside {
+  color: hsl(35, 77%, 62%);
+}
+.aside-section {
+  color: white;
+}
+.aside-section h3 {
+  font-size: 16px;
+}
+.aside-section h3:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.5s;
+}
+.aside-section p {
+  font-size: 13px;
+  color: rgb(160, 160, 160);
+}

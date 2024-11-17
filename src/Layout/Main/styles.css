@@ -1,0 +1,11 @@
+.main-layout {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+}
+@media screen and (min-width: 675px) {
+  .main-layout {
+    grid-template-columns: 65% 30%;
+    height: max-content;
+    gap: 5%;
+  }
+}

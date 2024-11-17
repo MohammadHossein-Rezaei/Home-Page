@@ -1,0 +1,35 @@
+.footer-layout {
+  display: grid;
+}
+.footer-item {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.footer-image {
+  width: 100%;
+  height: auto;
+}
+.footer-item h1 {
+  color: hsl(5, 85%, 63%);
+  margin: 0px;
+}
+.footer-item p {
+  margin: 0px;
+  color: #757575;
+  font-size: 13px;
+}
+.footer-item h4 {
+  margin: 10px 0px;
+}
+@media screen and (min-width: 675px) {
+  .footer-layout {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .footer-item {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.home-page {
+  display: grid;
+
+  width: 100%;
+  height: 100%;
+
+  grid-template-rows: 10% auto auto;
+}
+@media screen and (min-width: 675px) {
+  .home-page {
+    justify-content: center;
+    grid-template-columns: 80%;
+    position: relative;
+  }
+}
